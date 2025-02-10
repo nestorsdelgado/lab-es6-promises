@@ -151,6 +151,6 @@ Promise.all([
     })
     document.querySelector("#brusselsSproutsImg").removeAttribute("hidden")
     // Extra step: Display "End!!"
-    document.querySelector("#brusselsSprouts").innerHTML += `<li>Brussels sprouts are ready!></li>`
+    document.querySelector("#brusselsSprouts").innerHTML += `<li>Brussels sprouts are ready!</li>`
   })
   .catch((error) => console.log(error))
